@@ -1,35 +1,39 @@
-/*
- Theme Name:   Neve Child
- Theme URI:    http://thomasgimm.dk/portfolio
- Description:  Neve Child Theme
- Author:       Thomas
- Author URI:   http://thomasgimm.dk/portfolio
- Template:     neve
- Version:      1.1.2
- License:      GNU General Public License v2 or later
- License URI:  http://www.gnu.org/licenses/gpl-2.0.html
- Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
- Text Domain:  nevechild
-*/
-
-
-/*Ændre farven på mit navn på forsiden til orange*/
-.elementor-5 .elementor-element.elementor-element-cf57bff .elementor-heading-title {
-    color: #FCAF3B;
-}
-
-
-
-/*Sticky menu, som holder menuen i toppen af skærmen, selvom man scroller*/
-.header--row .header--row-inner, .header--row .header--row-inner .container .row {
-    height:110px;
-    z-index:170;
-    margin:0 auto;
-    width:100%;
-    position:fixed !important;
-    top:0;
-    left:0;
-    right:0;
-    text-align: center;
-    display: block;
-}
+/*
+ Theme Name:   Neve Child
+ Theme URI:    http://thomasgimm.dk/portfolio
+ Description:  Neve Child Theme
+ Author:       Thomas
+ Author URI:   http://thomasgimm.dk/portfolio
+ Template:     neve
+ Version:      1.1.2
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  nevechild
+*/
+
+/*Ændre farven på mit navn til orange*/
+.elementor-5 .elementor-element.elementor-element-cf57bff .elementor-heading-title {
+    color: #FCAF3B;
+}
+
+
+
+/*Sticky menu, som holder menuen i toppen af skærmen, selvom man scroller*/
+.header--row .header--row-inner, .header--row .header--row-inner .container .row {
+    height:110px;
+    z-index:170;
+    margin:0 auto;
+    width:100%;
+    position:fixed !important;
+    top:0;
+    left:0;
+    right:0;
+    text-align: center;
+    display: block;
+}
+
+/*ændre farven på knappen "om mig" på forsiden til orange*/
+a.elementor-button-link.elementor-button.elementor-size-md.elementor-animation-grow {
+    background-color: #FCAF3B;
+}
